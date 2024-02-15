@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Election Age</title>
+<link rel="stylesheet" href="Website_CSS.css">
+</head>
+<body>
+<div id="main">
+    <div class="hexrow">
+        <div class="hexagon_bar">
+            <a href="HTML_fixed_left_scroll_right.html">
+                <img class="hexagon_img" src="Eggs_HexR040_0077_square_wide.png" alt="Image 3">
+            </a>
+        </div>
+        <div class="hexagon_bar"></div>
+        <div class="hexagon_bar"></div>
+        <div class="hexagon_bar"></div>
+        <div class="hexagon_bar"></div>
+        <div class="hexagon_bar"></div>
+        <div class="hexagon_bar"></div>
+    </div>
+    <div class="MidText">
+        <h1 class="Page_Title" style="margin-top:100px">House Prices 2024</h1>
+        <h2 class="Page_Section">How much do I have to pay for a house and where are houses least expansive?</h2>
+        <p class="Description">
+            Many people dream of owning their own home. However, house prices have risen sharply in recent years, 
+            making the dream of owning a home a distant prospect for many. I wanted to know where houses are particularly 
+            expensive and where you can get the biggest plots of land to go with a house, because there has to be room for the 
+            <a href="Quails.html">quail coop</a> somewhere. 
+            Together with <a href="https://www.linkedin.com/in/lukas-bollenbach/">Lukas</a>, 
+            I scraped the data of around 100,000 houses from a property platform and turned the data into a dashboard. 
+            For legal reasons, I am unfortunately unable to share the dashboard. 
+            But I would like to give you a brief insight into the data.
+        </p>
+        <img class="InLineImage" src="Images/ImmoDash_01.png" alt="ImmoDash01">
+
+        <h2 class="Page_Section" style="margin-top: 50px">Price per m²</h2>
+        <p class="Description">
+            Here we can see how the prices per square metre differ in Germany. 
+            Conurbations such as Munich, Berlin, Hamburg, Frankfurt and the Ruhr area 
+            are clearly recognisable. Houses are clearly the most expensive in the Munich area. 
+            What I find particularly interesting is the influence that Berlin has on house prices 
+            and that house prices fall sharply behind this area.
+        </p>
+        <img class="InLineImage" src="Images/ImmoDash_Preis_m2.png" alt="ImmoDash01">
+
+        <h2 class="Page_Section" style="margin-top: 50px">Property Size</h2>
+        <p class="Description">
+            The situation is quite different when it comes to plot sizes. 
+            In urban centres, there are only small plots of land for houses. 
+            In rural regions, especially in north-east Germany, the plots of land 
+            associated with the house are much larger. In the Uckermark, house buyers receive an average of 1742m² of additional land. 
+        </p>
+        <img class="InLineImage" src="Images/ImmoDash_Grundstuecksflaeche.png" alt="ImmoDash01">
+
+        <h2 class="Page_Section" style="margin-top: 50px">Number of Houses</h2>
+        <p class="Description">
+            Of course, there are not the same number of houses on offer everywhere. 
+            More houses are sold in some districts than in others. The availability of houses certainly 
+            has an influence on the price of property. However, it would be interesting to include 
+            demographic data in the assessment.
+        </p>
+        <img class="InLineImage" src="Images/ImmoDash_n_Houses.png" alt="ImmoDash01">
+
+        <h2 class="Page_Section" style="margin-top: 50px">Price Variations</h2>
+        <p class="Description">
+            Wow, this map has some cow patches! Here we look at the variability of house prices. 
+            In some counties house prices are very different. We need to look at the percentage 
+            variability here because otherwise the absolute variability would be higher for 
+            districts with high house prices. Apart from the fact that in the districts around 
+            Berlin the house price depends very much on the proximity to Berlin, I cannot interpret 
+            the patterns here. However, I find it interesting that the price variability around 
+            Munich is very low. It seems that all houses are expensive here, or that the price of 
+            land is much higher than the price of houses.
+        </p>
+        <img class="InLineImage" src="Images/ImmoDash_Preisvariability.png" alt="ImmoDash01">
+
+        <h2 class="Page_Section" style="margin-top: 50px">Room Size</h2>
+        <p class="Description">
+            Where are the rooms particularly large? This question may be trivial, 
+            but if the data is there, why shouldn't we show it? Above all, 
+            I think we can see that there are only a few districts with particularly small 
+            or particularly large rooms. In the Stuttgart / Zollernalbkreis area the rooms 
+            are rather small, in Forchheim, but also in the most expensive district of Miesbach, 
+            the rooms are large. I don't understand why people in Miesbach prefer particularly 
+            large rooms when the price per square metre is so enormous. 
+            Perhaps the typical DINKs (Double Income No Kids) live here.
+        </p>
+        <img class="InLineImage" src="Images/ImmoDash_RoomSize.png" alt="ImmoDash01">
+
+        <h2 class="Page_Section" style="margin-top: 50px">Some Remarks</h2>
+        <p class="Description">
+            Of course, this superficial analysis cannot say much. 
+            In the future, we want to scrape some more data, such as the year of construction, 
+            the energy certificate and the features. This would allow us to analyse, for example, 
+            to what extent the year of construction or the energy certificate have an influence 
+            on the price and whether certain features in particular determine the price. 
+            A time dimension would be very interesting to assess trends. It would be 
+            interesting to see which houses sell particularly quickly and which stay in the system longer.
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
