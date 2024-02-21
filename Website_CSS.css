@@ -1,6 +1,6 @@
 body {
-    /* font-family: Arial, sans-serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #111111;
@@ -25,13 +25,12 @@ body {
     position: relative;
     width: 130px;
     height: 150px;
-    background-color: #FFFFFF;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     margin: 4px; 
     transition: transform 0.3s ease; /* Add transition for smooth effect */
 }
 .hexagon:hover {
-    transform: scale(1.1); /* Scale up the hexagon on hover */
+    transform: scale(1.05); /* Scale up the hexagon on hover */
 }
 .hexrow:nth-child(n + 2){
     margin-top: -37px;
@@ -47,7 +46,6 @@ body {
     position: relative;
     width: 80px;
     height: 69px;
-    background-color: #a8a806;
     clip-path: polygon(0% 50%, 25% 100%, 75% 100%, 100% 50%, 75% 0%, 25% 0%);
     margin: 4px;
     margin-left: -20px;
@@ -74,6 +72,7 @@ body {
 .Description{
     min-width: 400px;
     max-width: 800px;
+    line-height: 1.6;
 }
 .MidText{
     justify-content: center;
@@ -99,4 +98,20 @@ a:hover {
     color: #406b2d;
     background-color: transparent;
     text-decoration: underline;
+}
+.hexagon_intro {
+    display: inline-block;
+    width: 100%;
+    margin-top: 6.5%;
+    margin-bottom: 6.5%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 99%, 0% 75%, 0% 25%);
+}
+.intro_text {
+    display: inline-block;
+    position: relative;
+}
+.MidContent{
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
 }
